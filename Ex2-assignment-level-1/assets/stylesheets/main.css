@@ -1,0 +1,229 @@
+/*=======================================*
+
+                css reset
+
+*========================================*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*=======================================*
+
+              my reset & global style
+
+*========================================*/
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 500;
+}
+
+/*=======================================*
+
+                typography
+
+*========================================*/
+
+h1 {
+  color: #000;
+  font-size: 30px;
+}
+
+p {
+  color: #000;
+  font-size: 20px;
+}
+
+/*=======================================*
+
+                first section
+
+*========================================*/
+
+.sec-1 {
+  background: url(../images/bg-1.png) 0 0 no-repeat;
+  background-size: cover;
+}
+
+.sec-1 h1 {
+  padding-top: 20px;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  padding: 60px 30px;
+}
+
+.flexbox {
+  flex: 0 1 30%;
+  height: 250px;
+  border-radius: 10px;
+  padding: 120px;
+}
+
+.box-1 {
+  background: #FF0248;
+}
+
+.box-2 {
+  background: linear-gradient(to right, #2C2A23, #FF0248);
+}
+
+.box-3 {
+  background: radial-gradient(#FF0248 50%, #2C2A23);
+}
+
+/*=======================================*
+
+                second section
+
+*========================================*/
+
+.sec-2 {
+  background: url(../images/bg-1.png) 0 100% no-repeat;
+  background-size: cover;
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+
+.box-4 {
+  width: 90%;
+  height: 500px;
+  border-radius: 20px;
+  padding-top: 230px;
+  margin: 0 auto;
+  background: linear-gradient(135deg, #fff2, #C94423), url(../images/bg-2.jpeg) no-repeat;
+  background-size: cover;
+}
