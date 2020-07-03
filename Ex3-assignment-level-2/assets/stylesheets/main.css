@@ -1,0 +1,378 @@
+/*=======================================*
+
+                css reset
+
+*========================================*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*=======================================*
+
+                  my reset
+
+*========================================*/
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/*=======================================*
+
+                  global
+
+*========================================*/
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+
+body {
+  background: linear-gradient(#20222F 30%, #1D2029 30%);
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+/*=======================================*
+
+                  typography
+
+*========================================*/
+
+body {
+  font: 400 16px/1.5 'Roboto', sans-serif;
+  color: #858FB2;
+  text-transform: capitalize;
+}
+
+.num,
+.num-1,
+h1,
+h2 {
+  color: #fff;
+}
+
+h1 {
+  font-size: 35px;
+}
+
+h2 {
+  font-size: 25px;
+}
+
+p {
+  font-size: 18px;
+}
+
+a {
+  color: #858FB2;
+  text-transform: lowercase;
+  text-decoration: none;
+}
+
+/*=======================================*
+
+                header
+
+*========================================*/
+
+.header {
+  padding: 20px 0;
+}
+
+.mode {
+  padding-right: 10px;
+}
+
+.button {
+  width: 45px;
+  height: 20px;
+  border: 0;
+  border-radius: 19px;
+  text-align: left;
+  padding: 1px 2px;
+  background: linear-gradient(to right, #3A8ED3, #3DCF93);
+}
+
+.fa-circle {
+  font-size: 18px;
+  color: #242C43;
+}
+
+/*=======================================*
+
+                first section
+
+*========================================*/
+
+.sec-1 {
+  margin: 40px 0;
+}
+
+.square {
+  flex: 0 1 23%;
+  text-align: center;
+  border-radius: 5px;
+  padding: 25px;
+}
+
+.inline-flex {
+  display: inline-flex;
+  align-items: center;
+}
+
+.Social-name {
+  margin-bottom: 25px;
+}
+
+.num {
+  display: block;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 1;
+}
+
+.fols-subs {
+  font-weight: 100;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+
+.fa-sort-up {
+  padding-top: 5px;
+  padding-right: 5px;
+}
+
+.today-green {
+  color: #20967D;
+}
+
+.today-red {
+  color: #BF4D60;
+}
+
+.square-1 {
+  background: #252B43 linear-gradient(to right, #188FF5, #188FF5) no-repeat;
+  background-size: 100% 3%;
+}
+
+.square-2 {
+  background: #252B43 linear-gradient(to right, #1BA3F1, #1BA3F1) no-repeat;
+  background-size: 100% 3%;
+}
+
+.square-3 {
+  background: #252B43 linear-gradient(to right, #FBBD66, #E24A93) no-repeat;
+  background-size: 100% 3%;
+}
+
+.square-4 {
+  background: #252B43 linear-gradient(to right, #C3022F, #C3022F) no-repeat;
+  background-size: 100% 3%;
+}
+
+.Social-name a {
+  padding-left: 10px;
+}
+
+.fab {
+  display: block;
+  font-size: 2em;
+}
+
+.fa-facebook-square {
+  color: #188FF5;
+}
+
+.fa-twitter {
+  color: #1BA3F1;
+}
+
+.fa-instagram {
+        background: #E15691 linear-gradient(#FBBD66, #E24A93);
+-webkit-text-fill-color: transparent;
+   -moz-text-fill-color: transparent;
+     -o-text-fill-color: transparent;
+    -ms-text-fill-color: transparent;
+        text-fill-color: transparent;
+-webkit-background-clip: text;
+   -moz-background-clip: text;
+     -o-background-clip: text;
+    -ms-background-clip: text;
+        background-clip: text;
+}
+
+.fa-youtube {
+  display: block;
+  color: #252B43;
+  font-size: 1em;
+  background: #C3022F;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  padding: 7px 6px;
+}
+
+/*=======================================*
+
+                second section
+
+*========================================*/
+
+.wrapper {
+  margin: 30px 0;
+  height: 360px;
+}
+
+.rectangle {
+  flex: 0 1 23%;
+  background: #252B43;
+  padding: 30px;
+  border-radius: 5px;
+}
+
+.num-box {
+  margin-top: 25px;
+  align-items: baseline;
+}
+
+.num-1 {
+  display: block;
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 1;
+}
