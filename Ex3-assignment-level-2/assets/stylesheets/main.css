@@ -194,6 +194,7 @@ h2 {
   font-size: 25px;
 }
 
+label,
 p {
   font-size: 18px;
 }
@@ -270,6 +271,7 @@ a {
   font-weight: 100;
   text-transform: uppercase;
   margin-bottom: 15px;
+  display: block;
 }
 
 .fa-sort-up {
